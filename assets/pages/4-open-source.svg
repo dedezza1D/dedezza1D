@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 609" width="900" height="609">
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f5ecd6"/><stop offset="0.55" stop-color="#efe2c4"/><stop offset="1" stop-color="#e4d2ab"/>
+  </linearGradient>
+  <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
+    <stop offset="0.6" stop-color="#8a5a2b" stop-opacity="0"/><stop offset="1" stop-color="#8a5a2b" stop-opacity="0.32"/>
+  </radialGradient>
+  <radialGradient id="foxing" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#a0703a" stop-opacity="0.10"/><stop offset="1" stop-color="#a0703a" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/>
+    <feColorMatrix in="n" values="0 0 0 0 0.35  0 0 0 0 0.22  0 0 0 0 0.1  0 0 0 0.10 0"/>
+  </filter>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.45"/>
+  </filter>
+</defs>
+<rect x="14" y="14" width="872" height="581" fill="url(#paper)" filter="url(#shadow)"/>
+<rect x="14" y="14" width="872" height="581" filter="url(#grain)"/>
+<circle cx="729.04" cy="118.58" r="90" fill="url(#foxing)"/>
+<circle cx="118.64" cy="513.66" r="70" fill="url(#foxing)"/>
+<rect x="14" y="14" width="872" height="581" fill="url(#vignette)"/>
+<rect x="28" y="28" width="844" height="553" fill="none" stroke="#5a3e2b" stroke-width="1.6"/>
+<rect x="36" y="36" width="828" height="537" fill="none" stroke="#5a3e2b" stroke-width="0.6"/>
+<rect x="41" y="41" width="818" height="527" fill="none" stroke="#7a1424" stroke-width="0.6"/>
+<g><path d="M36 30 L42 36 L36 42 L30 36 Z" fill="#7a1424"/><circle cx="36" cy="36" r="10" fill="none" stroke="#9a7a45" stroke-width="1"/></g><g><path d="M864 30 L870 36 L864 42 L858 36 Z" fill="#7a1424"/><circle cx="864" cy="36" r="10" fill="none" stroke="#9a7a45" stroke-width="1"/></g><g><path d="M36 567 L42 573 L36 579 L30 573 Z" fill="#7a1424"/><circle cx="36" cy="573" r="10" fill="none" stroke="#9a7a45" stroke-width="1"/></g><g><path d="M864 567 L870 573 L864 579 L858 573 Z" fill="#7a1424"/><circle cx="864" cy="573" r="10" fill="none" stroke="#9a7a45" stroke-width="1"/></g>
+<text x="104" y="88" text-anchor="start" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-size="10" letter-spacing="3" fill="#7a6450">A. M. SOUZA</text><text x="796" y="88" text-anchor="end" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-size="10" letter-spacing="3" fill="#7a6450">OPEN SOURCE</text>
+<line x1="104" y1="98" x2="796" y2="98" stroke="#9a7a45" stroke-width="0.6"/>
+<text x="450" y="144" text-anchor="middle" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-size="13" letter-spacing="6" fill="#7a1424">CHAPTER IV</text><text x="450" y="198" text-anchor="middle" font-family="'Cambria Math','STIX Two Math','Noto Sans Math','Segoe UI Symbol','DejaVu Sans',serif" font-size="44" fill="#2b1d14">𝕺𝖕𝖊𝖓 𝕾𝖔𝖚𝖗𝖈𝖊</text><g stroke="#9a7a45" stroke-width="1" fill="none">
+    <line x1="320" y1="224" x2="428" y2="224"/>
+    <line x1="472" y1="224" x2="580" y2="224"/>
+    <path d="M428 224 Q439 215 450 224 Q461 215 472 224"/>
+    <path d="M428 224 Q439 233 450 224 Q461 233 472 224"/>
+  </g><path d="M450 220 L454 224 L450 228 L446 224 Z" fill="#7a1424"/><path d="M314 221.5 L316.5 224 L314 226.5 L311.5 224 Z" fill="#9a7a45"/><path d="M586 221.5 L588.5 224 L586 226.5 L583.5 224 Z" fill="#9a7a45"/>
+<rect x="104" y="271" width="68" height="68" fill="#7a1424"/>
+        <rect x="107" y="274" width="62" height="62" fill="none" stroke="#9a7a45" stroke-width="1.2"/>
+        <text x="138" y="321.32" text-anchor="middle" font-family="'Cambria Math','STIX Two Math','Noto Sans Math','Segoe UI Symbol','DejaVu Sans',serif" font-size="48.96" fill="#f1e4c6">𝕴</text><text y="285" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-size="17" fill="#2b1d14"><tspan x="184.0">have</tspan><tspan x="224.0">a</tspan><tspan x="237.5">contribution</tspan><tspan x="336.5">in</tspan><tspan x="356.5">Spring</tspan><tspan x="411.3">Boot</tspan><tspan x="451.5">Migrator</tspan><tspan x="523.4">and</tspan><tspan x="556.7">want</tspan><tspan x="598.6">more.</tspan><tspan x="647.4">I</tspan><tspan x="659.0">try</tspan><tspan x="685.1">to</tspan><tspan x="705.1">ship</tspan><tspan x="741.9">a</tspan><tspan x="755.4">small</tspan></text><text y="312" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-size="17" fill="#2b1d14"><tspan x="184.0">Go</tspan><tspan x="211.5">project</tspan><tspan x="270.1">most</tspan><tspan x="313.4">weeks,</tspan><tspan x="369.4">and</tspan><tspan x="403.8">I'm</tspan><tspan x="435.0">looking</tspan><tspan x="497.0">for</tspan><tspan x="524.7">messaging</tspan><tspan x="609.4">or</tspan><tspan x="631.6">security</tspan><tspan x="696.8">projects</tspan><tspan x="762.7">with</tspan></text><text x="184" y="339" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-size="17" fill="#2b1d14">open issues — reach out at andrezzaammss@gmail.com if you have one.</text>
+
+<line x1="158" y1="373" x2="158" y2="429" stroke="#7a1424" stroke-width="2"/><text x="174" y="391" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-style="italic" font-size="18" fill="#5a3e2b">Portuguese (native) · English (fluent, day-to-day work language) ·</text><text x="174" y="419" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-style="italic" font-size="18" fill="#5a3e2b">German (B1) · Spanish (learning)</text>
+<g stroke="#9a7a45" stroke-width="1" fill="none">
+    <line x1="360" y1="469" x2="428" y2="469"/>
+    <line x1="472" y1="469" x2="540" y2="469"/>
+    <path d="M428 469 Q439 460 450 469 Q461 460 472 469"/>
+    <path d="M428 469 Q439 478 450 469 Q461 478 472 469"/>
+  </g><path d="M450 465 L454 469 L450 473 L446 469 Z" fill="#7a1424"/><path d="M354 466.5 L356.5 469 L354 471.5 L351.5 469 Z" fill="#9a7a45"/><path d="M546 466.5 L548.5 469 L546 471.5 L543.5 469 Z" fill="#9a7a45"/><text x="450" y="505" text-anchor="middle" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-size="12" letter-spacing="8" fill="#7a1424">FINIS</text>
+
+<text x="450" y="559" text-anchor="middle" font-family="Georgia,'Times New Roman','Liberation Serif',serif" font-style="italic" font-size="13" fill="#7a6450">· v ·</text>
+</svg>
