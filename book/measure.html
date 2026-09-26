@@ -1,6 +1,0 @@
-<!doctype html><meta charset="utf-8"><body><script>
-const c=document.createElement('canvas').getContext('2d');const out={};
-const chars=[];for(let i=32;i<127;i++)chars.push(String.fromCharCode(i));chars.push('—','–','’','“','”','é','ã','·','…','ç','á','ó','í');
-for(const f of ['normal','italic']){c.font=f+' 100px Georgia';out[f]={};for(const ch of chars)out[f][ch]=Math.round(c.measureText(ch).width*10)/1000;}
-document.body.textContent=JSON.stringify(out);
-</script>

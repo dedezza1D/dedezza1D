@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 30" width="600" height="30" role="img" aria-label="divider">
+  <g fill="none" stroke="#8a1a2c" stroke-width="1.3">
+    <line x1="20" y1="15" x2="262" y2="15"/>
+    <line x1="338" y1="15" x2="580" y2="15"/>
+    <path d="M262 15 Q280 3 300 15 Q320 3 338 15"/>
+    <path d="M262 15 Q280 27 300 15 Q320 27 338 15"/>
+    <circle cx="14" cy="15" r="2.5" fill="#8a1a2c"/>
+    <circle cx="586" cy="15" r="2.5" fill="#8a1a2c"/>
+    <path d="M300 5 v20 M293 11 h14" stroke-width="2"/>
+  </g>
+</svg>

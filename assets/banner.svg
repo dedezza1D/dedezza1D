@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Andrezza Medeiros Souza — Backend engineer, Java and Go, focused on security">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#2a0d14"/>
+      <stop offset="60%" stop-color="#120a0e"/>
+      <stop offset="100%" stop-color="#07060a"/>
+    </radialGradient>
+    <radialGradient id="rose" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9b1b30" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#9b1b30" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efe6d6"/>
+      <stop offset="100%" stop-color="#b8aa94"/>
+    </linearGradient>
+
+    <!-- one gothic window: pointed arch, tracery, rose -->
+    <g id="window" fill="none" stroke="#6b5a4a" stroke-width="1.6">
+      <path d="M0 240 V110 Q0 40 55 10 Q110 40 110 110 V240 Z"/>
+      <path d="M10 240 V114 Q10 54 55 24 Q100 54 100 114 V240" stroke-opacity="0.5"/>
+      <line x1="55" y1="110" x2="55" y2="240"/>
+      <path d="M12 240 V140 Q12 112 33.5 100 Q55 112 55 140"/>
+      <path d="M55 140 Q55 112 76.5 100 Q98 112 98 140 V240"/>
+      <circle cx="55" cy="72" r="20"/>
+      <circle cx="55" cy="72" r="8"/>
+      <g stroke-opacity="0.8">
+        <line x1="55" y1="52" x2="55" y2="92"/>
+        <line x1="35" y1="72" x2="75" y2="72"/>
+        <line x1="40.9" y1="57.9" x2="69.1" y2="86.1"/>
+        <line x1="69.1" y1="57.9" x2="40.9" y2="86.1"/>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="1000" height="300" fill="url(#glow)"/>
+
+  <!-- stained-glass glow behind the windows -->
+  <circle cx="95" cy="112" r="60" fill="url(#rose)">
+    <animate attributeName="opacity" values="0.7;1;0.8;1;0.7" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="905" cy="112" r="60" fill="url(#rose)">
+    <animate attributeName="opacity" values="1;0.75;1;0.8;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <use href="#window" x="40" y="40"/>
+  <use href="#window" x="850" y="40"/>
+
+  <!-- frame -->
+  <rect x="14" y="14" width="972" height="272" fill="none" stroke="#3a2e28" stroke-width="1"/>
+  <rect x="20" y="20" width="960" height="260" fill="none" stroke="#5a1320" stroke-width="1.2"/>
+
+  <!-- corner crosses -->
+  <g fill="#8a1a2c">
+    <path d="M20 12 v16 M12 20 h16" stroke="#8a1a2c" stroke-width="2"/>
+    <path d="M980 12 v16 M972 20 h16" stroke="#8a1a2c" stroke-width="2"/>
+    <path d="M20 272 v16 M12 280 h16" stroke="#8a1a2c" stroke-width="2"/>
+    <path d="M980 272 v16 M972 280 h16" stroke="#8a1a2c" stroke-width="2"/>
+  </g>
+
+  <!-- small ornament above the name -->
+  <g transform="translate(500 58)" fill="none" stroke="#8a1a2c" stroke-width="1.4">
+    <line x1="-120" y1="0" x2="-18" y2="0"/>
+    <line x1="18" y1="0" x2="120" y2="0"/>
+    <path d="M0 -10 L8 0 L0 10 L-8 0 Z" fill="#8a1a2c"/>
+    <circle cx="-126" cy="0" r="2.5" fill="#8a1a2c"/>
+    <circle cx="126" cy="0" r="2.5" fill="#8a1a2c"/>
+  </g>
+
+  <!-- name in Unicode Mathematical Bold Fraktur -->
+  <text x="500" y="140" text-anchor="middle"
+        font-family="'Cambria Math','STIX Two Math','Noto Sans Math','Segoe UI Symbol','DejaVu Sans',serif"
+        font-size="52" fill="url(#bone)" letter-spacing="1">𝕬𝖓𝖉𝖗𝖊𝖟𝖟𝖆 𝕸𝖊𝖉𝖊𝖎𝖗𝖔𝖘 𝕾𝖔𝖚𝖟𝖆</text>
+
+  <text x="500" y="186" text-anchor="middle"
+        font-family="Georgia,'Times New Roman',serif" font-size="17"
+        fill="#b8aa94" letter-spacing="6">BACKEND ENGINEER · JAVA &amp; GO · SECURITY</text>
+
+  <!-- ornament below subtitle -->
+  <g transform="translate(500 214)" fill="none" stroke="#5a4a3e" stroke-width="1.2">
+    <line x1="-170" y1="0" x2="-14" y2="0"/>
+    <line x1="14" y1="0" x2="170" y2="0"/>
+    <path d="M0 -8 v16 M-6 -2 h12" stroke="#9b1b30" stroke-width="2"/>
+  </g>
+
+  <text x="500" y="250" text-anchor="middle"
+        font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="14"
+        fill="#7d6e5e" letter-spacing="2">Leipzig</text>
+</svg>
