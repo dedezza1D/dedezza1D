@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <i>Java and Go day to day — increasingly focused on the security side of both.</i><br><br>
+  <i>Backend engineer moving into AI: I build and explain language models, starting with a GPT I trained from scratch.</i><br><br>
   <a href="mailto:andrezzaammss@gmail.com"><img src="https://img.shields.io/badge/✉_andrezzaammss@gmail.com-0d1117?style=for-the-badge&labelColor=0d1117&color=1e293b" alt="Email"></a>
 </p>
 
