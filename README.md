@@ -66,6 +66,19 @@ A wallet with transfers, Pix and merchant charges.
 
 <p align="center"><img src="assets/divider.svg" width="420" alt=""></p>
 
+## ✠ Writing
+
+### † [Inside a ChatGPT](https://dedezza1d.github.io/inside-a-chatgpt/) · a series in three parts
+
+How a language model works, for people starting out without a math background. It follows one sentence,
+"Water is made of hydrogen and", through pocketchat, and every example and number in it is measured on the model.
+
+- [Part 0 — The math of AI, without fear](https://dedezza1d.github.io/inside-a-chatgpt/part-0-the-math.html): vectors, dot products, softmax and gradient descent, with additions and multiplications only.
+- [Part 1 — Inside the model](https://dedezza1d.github.io/inside-a-chatgpt/part-1-inside-the-model.html): tokens, attention, training, and where the model's wrong answers come from.
+- [Part 2 — Teaching the model to chat](https://dedezza1d.github.io/inside-a-chatgpt/part-2-teaching-it-to-chat.html): chat fine-tuning, what it teaches, and the facts the model forgets along the way.
+
+<p align="center"><img src="assets/divider.svg" width="420" alt=""></p>
+
 ## ✠ Open source
 
 I have a contribution in [Spring Boot Migrator](https://github.com/spring-projects-experimental/spring-boot-migrator)
