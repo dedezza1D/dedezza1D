@@ -72,6 +72,7 @@ A wallet with transfers, Pix and merchant charges.
 
 How a language model works, for people starting out without a math background. It follows one sentence,
 "Water is made of hydrogen and", through pocketchat, and every example and number in it is measured on the model.
+Also in Portuguese: [Como um ChatGPT funciona por dentro](https://dedezza1d.github.io/como-um-chatgpt-funciona/).
 
 - [Part 0 — The math of AI, without fear](https://dedezza1d.github.io/inside-a-chatgpt/part-0-the-math.html): vectors, dot products, softmax and gradient descent, with additions and multiplications only.
 - [Part 1 — Inside the model](https://dedezza1d.github.io/inside-a-chatgpt/part-1-inside-the-model.html): tokens, attention, training, and where the model's wrong answers come from.
