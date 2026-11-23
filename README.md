@@ -35,11 +35,12 @@ A small ChatGPT-style model I built and trained from scratch on my laptop's RTX 
 language models below the API. No pretrained weights and no model libraries.
 
 - Byte-level BPE tokenizer written by hand. Counting pairs over unique words with a lazy-deletion heap learns 8,192 tokens in about a minute.
-- GPT with RoPE, RMSNorm, SwiGLU and tied embeddings: 29.9M parameters, pretrained on 491M tokens of FineWeb-Edu in about 4 hours. Validation perplexity went from ~8,950 (a uniform guess) to 25.6.
+- GPT with RoPE, RMSNorm, SwiGLU and tied embeddings: 29.9M parameters, pretrained on 491M tokens of FineWeb-Edu in about 4 hours. Perplexity went from ~8,950 at the start (close to a uniform guess over 8,192 tokens) to 25.6 on validation.
 - Validation runs on fixed windows. The first version sampled new windows at every evaluation, and the "best" checkpoint it picked was worse than the last one once both were measured on the full set.
 - Chat fine-tuning on human-written conversations (oasst1, Dolly), with the loss only on the assistant's tokens. On a fixed question set, answers that end properly went from 0% to 80% and repeated 3-grams fell from 66% to 6.7%.
-- Tied embeddings have a side effect: the chat tokens never appear in pretraining, so their rows collapsed to almost the same vector (cosine 0.996). Re-initializing them before fine-tuning helped a little.
-- Fine-tuning also made the model forget: after "Water is made of hydrogen and", the chance of "oxygen" dropped from 52.9% to 28.8%.
+- Tied embeddings have a side effect: the chat tokens never appear in pretraining, so their rows collapsed to almost the same vector (cosine 0.996). Re-initializing them lowers the starting fine-tuning loss; after fine-tuning, the two runs are within noise.
+- Fine-tuning also made the model forget: perplexity on the pretraining validation text rose from 25.6 to 30.1, and after "Water is made of hydrogen and" the chance of "oxygen" dropped from 52.9% to 28.8%.
+- The weights are published with the tokenizer, so the model runs without training: the [pretrained model](https://github.com/dedezza1D/pocketchat/releases/tag/v0.1.0) (MIT) and the [chat model](https://github.com/dedezza1D/pocketchat/releases/tag/v0.2.0) (CC BY-SA 3.0, because of the Dolly data).
 
 ### † [TaskFlow](https://github.com/dedezza1D/taskflow) · Go, React/TypeScript
 
